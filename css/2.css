@@ -1,0 +1,12 @@
+:root {
+--espacio: 12px; --radio: 8px;
+--grosor: 4px;
+ }
+.inportante {
+background-color: #77818F;
+border-left: var( --grosor) solid #151C26;
+padding: var( --espacio);
+margin-bottom: var( --espacio);
+border-radius: var( --radio);
+}
+

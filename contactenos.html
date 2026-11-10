@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Exclusión Social</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/2.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>La exclusión social</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="encuesta.html">Encuesta</a>
+        <a href="soluciones.html">Soluciones</a>
+        <a href="contactenos.html">Contáctenos</a>
+    </nav>
+
+    <main>
+        <section class="contacto">
+            <h2>Contactanos</h2>
+            <p class="inportante">mandanos un mensaje si quieres mas informacion o ayuda sobre el tema</p>
+
+            <form action="mailto:tu-correo@email.com" method="POST" enctype="text/plain">
+
+                <label for="nombre">tu nombre:</label>
+                <input type="text" id="nombre" name="Nombre"
+                placeholder="tu nombre aqui" required>
+
+                <label for="correo">tu correo electrónico:</label>
+                <input type="email" id="correo" name="Correo"
+                placeholder="nose67@gmail.com" required>
+
+                <label for="mensaje">mandanos un mensaje:</label>
+                <textarea id="mensaje" name="Mensaje"
+                rows="7" placeholder="coloca tu mensaje" required></textarea>
+
+                <div class="botones">
+                    <input type="submit" value="Enviar mensaje">
+                    <input type="reset" value="Borrar todo">
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Creado por 2 juanes y un miguel</p>
+    </footer>
+
+</body>
+</html>
